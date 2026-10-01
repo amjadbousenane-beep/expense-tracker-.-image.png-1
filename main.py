@@ -10,7 +10,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 
-import streamlit as st
+
 
 
 DATABASE_PATH = Path(__file__).resolve().with_name("expenses.db")
